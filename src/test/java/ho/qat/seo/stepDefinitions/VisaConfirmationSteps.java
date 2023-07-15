@@ -48,7 +48,9 @@ public class VisaConfirmationSteps {
     }
 
     @And("I state I want to do {string} work")
-    public void iStateIWantToDoOtherWork() {
+    public void iStateIWantToDoOtherWork(String reason) {
+reasonForTravelPage.selectReasonForVisit(reason);
+        reasonForTravelPage.clickNextStepButton();
 
     }
 }
