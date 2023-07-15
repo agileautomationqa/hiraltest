@@ -5,10 +5,9 @@ import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
 import org.openqa.selenium.support.FindBy;
 
-@DefaultUrl("https://www.govuk.uk/check-uk-visa")
+@DefaultUrl("https://www.gov.uk/check-uk-visa")
 public class StartPage extends PageObject {
-
-        @FindBy(css = "#get-started > a")
+        @FindBy(xpath = "//a[@class='gem-c-button govuk-button govuk-button--start']")
         private WebElementFacade startNowButton;
 
         public void clickStartNow(){
