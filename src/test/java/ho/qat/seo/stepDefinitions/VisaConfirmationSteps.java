@@ -53,4 +53,10 @@ reasonForTravelPage.selectReasonForVisit(reason);
         reasonForTravelPage.clickNextStepButton();
 
     }
+
+    @And("I select a reason {string}")
+    public void iSelectAReasonFamily(String reason) {
+        reasonForTravelPage.selectReasonForVisit(reason);
+        reasonForTravelPage.clickNextStepButton();
+    }
 }

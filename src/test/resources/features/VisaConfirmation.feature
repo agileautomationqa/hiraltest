@@ -19,6 +19,5 @@ Feature: Visa checks
 @colombia
   Scenario: A Columbian national coming to the UK to join a partner for a long stay. They do have an Article 10 or 20 card.
     When I select a nationality of 'Colombia'
-    And I select reason 'join a partner for a long stay'
-    And I state they have a 'Article 10 or 20 card'
+  And I select a reason 'Family'
     Then I will be informed 'You may need a visa'

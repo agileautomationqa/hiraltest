@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         features = {"src/test/resources/features"},
         glue = "ho/qat/seo/stepDefinitions",
         plugin = "pretty",
-        tags = "@chile"
+        tags = "@colombia"
 )
 public class TestRunner {
 }

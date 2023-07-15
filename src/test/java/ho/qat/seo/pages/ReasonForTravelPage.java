@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.FindBy;
 
 public class ReasonForTravelPage extends PageObject {
-@FindBy(xpath = "(//input[@id='response-0'])[1]")
+
     WebElementFacade reasonToSelect;
 
     @FindBy(css = "#current-question > button")
