@@ -1,4 +1,4 @@
-package ho.qat.seo.pages;
+package pages;
 
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
